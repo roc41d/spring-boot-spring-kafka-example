@@ -15,7 +15,7 @@ public class KafkaTopicConfig {
     @Value(value = "${kafka.bootstrapAddress}")
     private String bootstrapAddress;
 
-    @Value(value = "${riskRequest.topic.name}")
+    @Value(value = "${kafka.topic.name}")
     private String fraudDetectionTopicName;
 
     @Bean
